@@ -1,0 +1,17 @@
+{
+  "name": "vsblty_nats_subscriber_poc_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Vsblty_NATS_Subscriber_POC_NodeJS.js",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "fs": "0.0.1-security",
+    "node-nats-streaming": "^0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
