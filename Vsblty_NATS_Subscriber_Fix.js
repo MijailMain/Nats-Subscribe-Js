@@ -1,6 +1,6 @@
 "use-strict";
 //Connect to vsblty-cluster with a random clientId
-var server = 'nats://3.85.168.100:4222';
+var server = 'nats://127.0.0.0:4222';
 var cluster = 'vsblty-cluster';
 var clientId = 'vsblty-nodejs-sub-' +  Math.floor((Math.random() * 10000) + 1);
 var stan = require('node-nats-streaming').connect(cluster, clientId, {url: server});
@@ -9,7 +9,7 @@ stan.on('connect', function () {
   console.log('Connected to ' + cluster + ' as client ' + clientId + '\n\n');
   
   //Channel to subscribe: 'vsblty-channel-facialrecognition-' + endpointId (Guid)
-  var endpointId = '40908dc9-a792-4aab-84f8-c7024b14c72a';
+  var endpointId = '00000-0000-0000-00000000000';
   //IdentitySearch
   //var channel = 'vsblty-channel-facialrecognition-' + endpointId;
   //Object detecttion

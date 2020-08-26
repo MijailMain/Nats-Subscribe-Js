@@ -1,0 +1,55 @@
+{
+	"Data": {
+		"CameraInfo": {
+			"CameraId": "IPCamera##10_12_0_20#98056de3-85d1-412f-9b2b-ec91b18ba304",
+			"CameraDescription": "IPCamera_10.12.0.20",
+			"HandlesContent": true,
+			"FocalDistance": 3.6,
+			"SensorHeight": 2.7,
+			"FrameSize": "1200,1545"
+		},
+		"TotalFaces": 1,
+		"IdentifiedFaces": 0,
+		"DemographicInfo": [
+			{
+				"LocalTrackingId": "1_IPCamera##10_12_0_20#98056de3-85d1-412f-9b2b-ec91b18ba304",
+				"LocalPersistedId": "af337c57-7759-413b-bdac-03ba4218d1c9",
+				"BioRecordId": "00000000-0000-0000-0000-000000000000",
+				"IdentityName": null,
+				"IdentityNameFromDB": null,
+				"IsIdentityConfirmed": false,
+				"MatchConfidence": 0.0,
+				"FaceRectangle": "331, 221, 513, 760",
+				"IsFaceEngaged": true,
+				"Age": 56,
+				"AgeConfidence": 0.0,
+				"AgeConfidenceLevel": 2,
+				"Gender": 1,
+				"GenderConfidence": 0.0,
+				"GenderConfidenceLevel": 2,
+				"Ethnicity": 5,
+				"EthnicityConfidence": 0.0,
+				"EthnicityConfidenceLevel": 2,
+				"Emotion": {
+					"Anger": 0.000610299467,
+					"Happiness": 0.9981487,
+					"Neutral": 0.00031795635,
+					"Sadness": 0.0006735402,
+					"Surprise": 0.00024961555,
+					"Contempt": null,
+					"Disgust": null,
+					"Fear": null
+				}
+			}
+		]
+	},
+	"FrameTimestamp": "2020-08-26T11:26:38.2737653-05:00",
+	"EndpointId": "000000-000000-00000000-000000000",
+	"EndpointName": "DESKTOP",
+	"StoreId": "000000-000000-00000000-000000000",
+	"CustomerId": "000000-000000-00000000-000000000",
+	"CameraName": "IPCamera",
+	"Location": "Api",
+	"Modality": 1,
+	"NotificationType": 3
+}
